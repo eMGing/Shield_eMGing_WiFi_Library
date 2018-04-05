@@ -10,8 +10,8 @@ Cambia los datos para tu conexión de wifi y listo !
 //#include <ESP8266WebServer.h>
 //#include <ESP8266mDNS.h>
 
-const char* ssid = ""; // Ingresa AQUI el nombre de tu red Wifi
-const char* password = ""; // Ingresa AQUI el PASSWORD
+const char* ssid = "MilasWireless"; // Ingresa AQUI el nombre de tu red Wifi
+const char* password = "0234567891"; // Ingresa AQUI el PASSWORD
 
 //Mac address should be different for each device in your LAN
 //byte arduino_mac[] = { 0xDE, 0xED, 0xBA, 0xFE, 0xFE, 0xED };

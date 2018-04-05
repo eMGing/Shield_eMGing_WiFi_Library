@@ -23,7 +23,12 @@
 #include <SPI.h>
 #include <SD.h>
 
-const int chipSelect = 4;
+// change this to match your SD shield or module;
+// Arduino Ethernet shield: pin 4
+// Adafruit SD shields and modules: pin 10
+// Sparkfun SD shield: pin 8
+// Shield eMGing Wifi v1.1: pin 15
+const int chipSelect = 15;
 
 void setup()
 {

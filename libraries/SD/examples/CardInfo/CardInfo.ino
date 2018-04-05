@@ -11,7 +11,7 @@
  ** MISO - pin 12 on Arduino Uno/Duemilanove/Diecimila
  ** CLK - pin 13 on Arduino Uno/Duemilanove/Diecimila
  ** CS - depends on your SD card shield or module.
- 		Pin 4 used here for consistency with other Arduino examples
+		Pin 15 for Shield eMGing Wifi v1.1
 
 
  created  28 Mar 2011
@@ -32,7 +32,8 @@ SdFile root;
 // Arduino Ethernet shield: pin 4
 // Adafruit SD shields and modules: pin 10
 // Sparkfun SD shield: pin 8
-const int chipSelect = 4;
+// Shield eMGing Wifi v1.1: pin 15
+const int chipSelect = 15;
 
 void setup()
 {

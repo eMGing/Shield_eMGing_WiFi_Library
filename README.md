@@ -1,3 +1,7 @@
+Shield eMGing Wifi v1.1
+![](resources/Shield_eMGing_Wifi_v1.1_desc.jpg "Shield_eMGing_Wifi_v1.1_desc")
+![](resources/Shield_eMGing_Wifi_v1.1_PINOUT.jpg "Shield_eMGing_Wifi_v1.1_PINOUT")
+
 Arduino core for ESP8266 WiFi chip
 ===========================================
 
